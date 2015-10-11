@@ -19,7 +19,8 @@
         <activity
             android:parentActivityName=".HomeActivity"
             android:name=".AddNewActivity"
-            android:label="@string/title_activity_add_new" >
+            android:label="@string/title_activity_add_new"
+            android:windowSoftInputMode="stateVisible" >
         </activity>
     </application>
 

@@ -29,6 +29,8 @@ public class AddNewActivity extends Activity {
         getActionBar().setDisplayHomeAsUpEnabled(true);
 
         name = (TextView) findViewById(R.id.editName);
+        name.setFocusable(true);
+        name.requestFocus();
         pos = (TextView) findViewById(R.id.editPos);
         pos2 = (TextView) findViewById(R.id.editPos2);
         desc = (TextView) findViewById(R.id.editDesc);
